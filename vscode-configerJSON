@@ -1,0 +1,96 @@
+{
+    // "breadcrumbs.enabled": false,
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderIndentGuides": false,
+    "window.zoomLevel": -1,
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "*.wpy": "vue"
+    },
+    "emmet.includeLanguages": {
+        "wxml": "html"
+    },
+    "minapp-vscode.disableAutoConfig": true,
+    "sync.gist": "95a1fe5e2c63c3ea7eff6369ea9a9ffc",
+    "search.followSymlinks": false,
+    "git.autorefresh": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "gitlens.views.repositories.files.layout": "list",
+    // 配置自己本地安装的命令行工具路径
+    "terminal.integrated.shell.windows": "D:\\soft\\Git\\bin/bash.exe",
+    "editor.fontSize": 20,
+    "terminal.integrated.rendererType": "dom",
+    // 重新设定tabsize
+    "editor.tabSize": 2,
+    // vscode默认启用了根据文件类型自动设置tabsize的选项
+    // "editor.detectIndentation": false,
+    // "vetur.format.options.tabSize": 4,
+    // "vetur.format.options.useTabs": true,
+    "eslint.enable": true, // #每次保存的时候将代码按eslint格式进行修复
+    // "prettier.eslintIntegration": true, //让prettier使用eslint的代码格式进行校验
+    "prettier.semi": true, //去掉结尾分号
+    "prettier.singleQuote": true, //使用单引号
+    "vetur.format.defaultFormatter.js": "prettier-eslint", //格式化.vue中html
+    // "vetur.format.defaultFormatterOptions": {
+    //     "js-beautify-html": {
+    //         "wrap_attributes": "force-aligned" //属性强制折行对齐
+    //     },
+    //     // "prettier": {
+    //     //     "semi": false,    //不加分号
+    //     //     "singleQuote": true  //用单引号
+    //     // }
+    // },
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".vue"
+        ]
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        }
+    ],
+    "editor.formatOnSave": false,
+    "vetur.format.defaultFormatter.ts": "prettier-tslint",
+    "files.insertFinalNewline": true,
+    "extensions.autoUpdate": false,
+    "files.trimTrailingWhitespace": true,
+    "html-css-class-completion.includeGlobPattern": "**/*.{css,html,scss,less}",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.locale": "zh-CN",
+    // "eslint.run": "onSave",
+    // "eslint.autoFixOnSave": true,
+    "markdown.styles": [
+        "https://cdn.bootcss.com/github-markdown-css/3.0.1/github-markdown.css"
+    ],
+    // koroFileHeader 在vscode中用于生成文件头部注释和函数注释的插件
+    "fileheader.configObj": {
+        "autoAdd": false, // 关闭自动添加文件头部信息 。默认状态开启
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjoyNDAsXCJjcmVhdGVUYXJnZXRcIjpmYWxzZSxcInBhZ2VGb3JtYXRcIjp7XCJ4XCI6MCxcInlcIjowLFwid2lkdGhcIjo4MjcsXCJoZWlnaHRcIjoxMTY5fSxcInNlYXJjaFwiOnRydWUsXCJzaG93U3RhcnRTY3JlZW5cIjp0cnVlLFwiZ3JpZENvbG9yXCI6XCIjZDBkMGQwXCIsXCJkYXJrR3JpZENvbG9yXCI6XCIjNmU2ZTZlXCIsXCJhdXRvc2F2ZVwiOnRydWUsXCJyZXNpemVJbWFnZXNcIjpudWxsLFwib3BlbkNvdW50ZXJcIjowLFwidmVyc2lvblwiOjE4LFwidW5pdFwiOjEsXCJpc1J1bGVyT25cIjpmYWxzZSxcInVpXCI6XCJcIn0ifQ==",
+    "sync.quietSync": true,
+    "sync.autoDownload": false
+}
